@@ -17,10 +17,9 @@ function removeItem() {
     $(this).parent('li').remove();
 }
 
-// $("#remove").click(function() {
-//   $(this).parent('li').remove();
-//
-// }
+$("#remove").click(function() {
+  $('ul').children('li').remove();
+});
 
 
 // $('#list').append("<li>"+$('#text-field').val() +"</li>");
